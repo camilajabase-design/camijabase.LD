@@ -46,8 +46,9 @@ h3 {
     font-size: 22px;
     color: #111;
     margin-top: 35px;
+    margin-bottom: 8px;    /* Espacio reducido con el párrafo */
     border-bottom: 2px solid #b30000;
-    display: inline-block;
+    display: inline-block; /* La línea roja solo mide lo que mide el texto */
 }
 
 p { 
@@ -55,12 +56,19 @@ p {
     font-size: 16px; 
     line-height: 1.9; 
     color: #333; 
+    margin-top: 0;         /* Elimina el espacio superior excesivo */
+}
+
+/* Estilo para las palabras clave al inicio del párrafo */
+p strong {
+    font-weight: 600;
+    color: #111;
 }
 
 /* 5. MULTIMEDIA - TAMAÑO EQUILIBRADO */
 .foto-flamenco { 
     width: 100%;           
-    max-width: 650px;      /* Tamaño protagonista pero contenido */
+    max-width: 650px;      
     height: auto; 
     display: block;        
     margin: 30px auto;     
@@ -121,6 +129,7 @@ p {
     margin: 0 12px;
 }
 
+/* Estilos generales para enlaces */
 a {
     color: #b30000;
     font-weight: 600;
