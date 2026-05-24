@@ -135,3 +135,32 @@ a {
     font-weight: 600;
     text-decoration: none;
 }
+/* 7. ESTILOS DE LA LICENCIA (OPCIÓN 1) */
+.licencia-cc {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+/* Controlar el tamaño y alineación de los iconitos de CC */
+.licencia-cc img {
+    max-width: 1.2em;
+    max-height: 1.2em;
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+
+/* Color específico para los links de la licencia */
+.licencia-cc a {
+    color: #555;
+    font-weight: 400; /* Menos pesada que los links del menú */
+    text-decoration: underline; /* Estilo clásico de cita legal */
+}
+
+.licencia-cc a:hover {
+    color: #b30000; /* Se pone roja si pasás el mouse por encima */
+}
