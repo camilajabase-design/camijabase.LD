@@ -1,3 +1,7 @@
+/* ==========================================================================
+   estilo.css - DISEÑO EDITORIAL COMPLETAMENTE CORREGIDO
+   ========================================================================== */
+
 /* 1. FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Prata&display=swap');
 
@@ -21,7 +25,7 @@ html, body {
     box-sizing: border-box;
 }
 
-/* 4. TIPOGRAFÍAS */
+/* 4. TIPOGRAFÍAS Y JERARQUÍAS */
 h1 { 
     font-family: 'Prata', serif; 
     font-size: 52px; 
@@ -46,9 +50,9 @@ h3 {
     font-size: 22px;
     color: #111;
     margin-top: 35px;
-    margin-bottom: 8px;    /* Espacio reducido con el párrafo */
+    margin-bottom: 8px;    /* Espacio ajustado para que no quede el "aire" suelto */
     border-bottom: 2px solid #b30000;
-    display: inline-block; /* La línea roja solo mide lo que mide el texto */
+    display: inline-block; /* La línea mide justo lo que mide el texto del título */
 }
 
 p { 
@@ -56,10 +60,10 @@ p {
     font-size: 16px; 
     line-height: 1.9; 
     color: #333; 
-    margin-top: 0;         /* Elimina el espacio superior excesivo */
+    margin-top: 0;         /* Elimina el espacio superior nativo del navegador */
 }
 
-/* Estilo para las palabras clave al inicio del párrafo */
+/* Estilo para destacar las palabras clave al inicio de los párrafos */
 p strong {
     font-weight: 600;
     color: #111;
@@ -129,38 +133,15 @@ p strong {
     margin: 0 12px;
 }
 
-/* Estilos generales para enlaces */
+/* Enlaces generales dentro de los párrafos */
 a {
     color: #b30000;
     font-weight: 600;
     text-decoration: none;
 }
-/* 7. ESTILOS DE LA LICENCIA (OPCIÓN 1) */
+
+/* 7. ESTILOS DE LA LICENCIA (Súper limpio para el parcial) */
 .licencia-cc {
     margin-top: 40px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    color: #777;
-    border-top: 1px solid #eee;
-    padding-top: 15px;
-}
-
-/* Controlar el tamaño y alineación de los iconitos de CC */
-.licencia-cc img {
-    max-width: 1.2em;
-    max-height: 1.2em;
-    margin-left: 0.3em;
-    vertical-align: middle;
-}
-
-/* Color específico para los links de la licencia */
-.licencia-cc a {
-    color: #555;
-    font-weight: 400; /* Menos pesada que los links del menú */
-    text-decoration: underline; /* Estilo clásico de cita legal */
-}
-
-.licencia-cc a:hover {
-    color: #b30000; /* Se pone roja si pasás el mouse por encima */
-}
