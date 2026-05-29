@@ -1,7 +1,3 @@
-/* ==========================================================================
-   estilo.css - DISEÑO EDITORIAL COMPLETAMENTE CORREGIDO
-   ========================================================================== */
-
 /* 1. FUENTES */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Prata&display=swap');
 
@@ -50,9 +46,9 @@ h3 {
     font-size: 22px;
     color: #111;
     margin-top: 35px;
-    margin-bottom: 8px;    /* Espacio ajustado para que no quede el "aire" suelto */
+    margin-bottom: 8px;   
     border-bottom: 2px solid #b30000;
-    display: inline-block; /* La línea mide justo lo que mide el texto del título */
+    display: inline-block; 
 }
 
 p { 
@@ -60,10 +56,10 @@ p {
     font-size: 16px; 
     line-height: 1.9; 
     color: #333; 
-    margin-top: 0;         /* Elimina el espacio superior nativo del navegador */
+    margin-top: 0;         
 }
 
-/* Estilo para destacar las palabras clave al inicio de los párrafos */
+
 p strong {
     font-weight: 600;
     color: #111;
@@ -141,13 +137,13 @@ a {
 }
 
 .epigrafe-foto {
-    text-align: left; /* O center, si preferís centrado debajo de la foto */
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 9px !important;            /* Forzamos el tamaño minúsculo */
-    color: #bbb !important;               /* Gris bien claro para que no compita */
-    font-style: italic !important;        /* Cursiva sutil */
-    letter-spacing: 0.5px;
-    margin-top: 8px;                     /* Espacio respecto a la foto de arriba */
-    margin-bottom: 25px;                  /* Despega el texto que le sigue */
     display: block;
-}
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 9px !important;           
+    color: #bbb !important;             
+    font-style: italic !important;       
+    letter-spacing: 0.5px;
+    
+    margin-top: -22px !important;         
+    margin-bottom: 25px !important;      
+    text-align: left;
