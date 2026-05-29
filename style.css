@@ -140,17 +140,14 @@ a {
     text-decoration: none;
 }
 
-/* 7. ESTILOS DE LA LICENCIA (Súper limpio para el parcial) */
-.licencia-cc {
-    margin-top: 40px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-   .epigrafe-foto {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    color: #999;
-    font-style: italic;
-    margin-top: -20px;
-    margin-bottom: 30px;
+.epigrafe-foto {
+    text-align: left; /* O center, si preferís centrado debajo de la foto */
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 9px !important;            /* Forzamos el tamaño minúsculo */
+    color: #bbb !important;               /* Gris bien claro para que no compita */
+    font-style: italic !important;        /* Cursiva sutil */
+    letter-spacing: 0.5px;
+    margin-top: 8px;                     /* Espacio respecto a la foto de arriba */
+    margin-bottom: 25px;                  /* Despega el texto que le sigue */
+    display: block;
 }
